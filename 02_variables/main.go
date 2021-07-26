@@ -8,6 +8,9 @@ func main() {
 	fmt.Println(name)
 	fmt.Println(age)
 
+	var count int = 20
+	fmt.Println(count)
+
 	total := 40
 	fmt.Println(total)
 }

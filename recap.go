@@ -2,6 +2,7 @@ package main
 
 
 var balance = 2000
+
 func main() {
 	println(checkBalance())
 	depositMoney(1000)
@@ -9,7 +10,7 @@ func main() {
 	withdrawMoney(100)
 }
 
-func checkBalance()int{
+func checkBalance() int{
 	return balance
 }
 
