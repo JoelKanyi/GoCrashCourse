@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	//Arrays
-	var fruits[2]string
+	var fruits [2]string
 
 	//Assign values
 	fruits[0] = "Mangoes"

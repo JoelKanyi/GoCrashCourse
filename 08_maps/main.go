@@ -4,8 +4,7 @@ import "fmt"
 
 func main() {
 	//Define map
-	emails:= make(map[string]string)
-
+	emails := make(map[string]string)
 
 	//Assign key values
 	emails["Bob"] = "bob@gmail.com"
@@ -21,6 +20,6 @@ func main() {
 	fmt.Println(emails)
 
 	//Declare and add
-	teams:= map[string]string{"Chelsea":"chelsea fc", "Tottenham":"tottenham fc"}
+	teams := map[string]string{"Chelsea": "chelsea fc", "Tottenham": "tottenham fc"}
 	fmt.Println(teams)
 }

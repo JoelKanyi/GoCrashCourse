@@ -16,7 +16,7 @@ func main() {
 	fmt.Println(*b)
 	fmt.Println(*&a)
 
-	//Change vsl with pointer
+	//Change val with pointer
 	*b = 10
 	fmt.Println(a)
 }

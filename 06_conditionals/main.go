@@ -3,24 +3,24 @@ package main
 import "fmt"
 
 func main() {
-	x:= 5
-	y:= 10
+	x := 5
+	y := 10
 
 	//If..else
-	if x < y{
-		fmt.Printf("%d is less than %d\n", x,y)
-	}else {
-		fmt.Printf("%d is less than %d\n", y,x)
+	if x < y {
+		fmt.Printf("%d is less than %d\n", x, y)
+	} else {
+		fmt.Printf("%d is less than %d\n", y, x)
 	}
 
 	//else if
-	color:= "blue"
+	color := "blue"
 
 	if color == "blue" {
 		fmt.Println("Color is blue")
-	}else if color == "red"{
+	} else if color == "red" {
 		fmt.Println("Color is red")
-	}else{
+	} else {
 		fmt.Println("Color not blue or red")
 	}
 
